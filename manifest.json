@@ -8,8 +8,7 @@
   "permissions": ["https://*.twitch.tv/*"],
   "browser_action": {
       "default_icon": "icon.png",
-      "default_title": "Twitch Auto Looter",
-      "defualt_popup": "popup.html"
+      "default_title": "Twitch Auto Looter"
   },
   "web_accessible_resources": [
 		"Pling.mp3"
