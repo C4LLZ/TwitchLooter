@@ -1,13 +1,13 @@
 
     setInterval(function(){
         
-        var box = document.getElementsByClassName('claimable-bonus__icon');
-    if (box.length > 0) {
-      document.querySelector('.claimable-bonus__icon').click();
-      console.log("A box was redeemed!");
+      var box = document.getElementsByClassName('claimable-bonus__icon');
+  if (box.length > 0) {
+    document.querySelector('.claimable-bonus__icon').click();
+    console.log("A box was redeemed!");
 
-    }else{
-            console.log("There was no redeemable box. Rechecking in 10 seconds!");
-            
-        };  
-    }, 10000);
+  }else{
+          console.log("There was no redeemable box. Rechecking in 10 seconds!");
+          
+      };  
+  }, 10000);

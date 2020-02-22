@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Twitch Auto Looter",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "Twitch Auto Channel points looter!",
   "icons": {"128": "icon.png"},
   "permissions": ["https://*.twitch.tv/*"],
