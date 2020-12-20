@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Twitch Auto Looter",
-  "version": "2.0.0",
+  "version": "4.0.0",
   "description": "Twitch Auto Channel points looter!",
   "icons": {"128": "icon.png"},
   "permissions": ["https://*.twitch.tv/*"],
@@ -14,7 +14,11 @@
   "content_scripts": [
       {
         "matches": ["https://*.twitch.tv/*"],
-          "js": ["main.js"],
+          "js": [
+		  "main.js",
+		  "jquery-3.3.1.min.js",
+		  "notify.min.js"
+		  ],
           "run_at": "document_end"
       }
   ]
